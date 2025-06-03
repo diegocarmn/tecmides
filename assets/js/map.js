@@ -1,6 +1,6 @@
 const loadMapScript = () => {
     const script = document.createElement('script');
-    script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAcGIGliBnY4y0H_6mCRlUhPMOSTbo1yHQ&callback=initMap";
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap`;
     script.async = true;
     document.head.appendChild(script);
 };
@@ -16,5 +16,5 @@ function initMap() {
           map: map
         });
       };
-      
+
 loadMapScript();
