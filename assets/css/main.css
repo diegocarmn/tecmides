@@ -1,0 +1,213 @@
+/*************************************************
+Main CSS Stylesheet for the TECMIDES website
+@author Diego Carmona [diegoncarmona@gmail.com]
+*************************************************/
+
+/*************** Buttons ***************/
+.btn {
+    padding: 10px 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 24px;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ /*Success*/
+.btn-success,
+.btn-success:active,
+.btn-success:visited,
+.btn-success:focus {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+.btn-success:hover {
+  background-color: #66BB6A;
+  border-color: #66BB6A;
+}
+/*Primary*/
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #3F51B5;
+    border-color: #3F51B5;
+}
+.btn-primary:hover {
+  background-color: #5C6BC0;
+  border-color: #5C6BC0;
+}
+  /*Warning*/
+.btn-warning,
+.btn-warning:active,
+.btn-warning:visited,
+.btn-warning:focus {
+    background-color: #FFD54F;
+    border-color: #FFD54F;
+}
+.btn-warning:hover {
+  background-color: #FFB300;
+  border-color: #FFB300;
+  color: white;
+}
+
+/*************** Icons ***************/
+.fa-chart-bar {
+  font-size: 82px;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  color: #7CB342;
+}
+.fa-graduation-cap {
+  font-size: 82px;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  color: #3F51B5;
+}
+.fa-user-circle {
+  font-size: 200px;
+  margin-bottom: 6px;
+  margin-top: 15px;
+}
+
+/*************** Navbar ***************/
+.nav-title {
+  font-weight: 800;
+}
+.navbar-on-scroll {
+  background-color: #FFFFFF;  /* navbar color */
+  color: #78909C; /* navbar text color */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.navbar-brand {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18pt;
+  font-weight: 600;
+}
+.nav-link {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: none;
+    background-color: rgba(38,50,56,0);
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+/*************** Header ***************/
+.header {
+  background: linear-gradient(to top, rgba(63,81,181,0.8), rgba(38,50,56,0.1)), url('../img/header.svg');
+  text-align: left;
+  text-align: justify;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+.header-title {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  font-size: 120px;
+  vertical-align: middle;
+}
+.header-subtitle {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  padding-bottom: 5px;
+  max-width: 60%;
+  font-size: 18px;
+}
+.jumbotron-fluid {
+  color: white;
+  height: 100vh;
+}
+
+/*************** SECTIONS ***************/
+.spaced {
+  padding-top: 80pt;
+  padding-bottom: 50pt;
+  font-family: 'Ubuntu', sans-serif;
+}
+.spaced-min {
+  padding-top: 50pt;
+}
+.section-title {
+  font-family: 'Dosis', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.line-break-white {
+  align: center;
+  color: white;
+  background-color: white;
+  height: 3px;
+  width: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0;
+}
+.line-break-dark {
+  align: center;
+  color: #263238;
+  background-color: #263238;
+  height: 3px;
+  width: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0;
+}
+.bg-indigo {
+  color: white;
+  background-color: #4e5cae;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%233f51b5' fill-opacity='0.39'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.section-text-white {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+/* Section 1 (Questionario)*/
+.bg-light {
+  color: #263238;
+  background-color: #ECEFF1;
+}
+
+/* Section 2 (Projeto)*/
+.projeto {
+  color: #263238;
+  background-color: white;
+}
+.section-text-projeto {
+  color: #455A64;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.card-text {
+  color: #546E7A;
+}
+/* Section 3 (Equipe) */
+.equipe {
+  color: #37474F;
+  background-color: #F5F5F5;
+}
+.profile {
+  height: 230px;
+  width: 230px;
+  -webkit-filter: opacity(.9);
+  filter: opacity(.9);
+}
+.profile-name {
+  padding-top: 20px;
+}
+/* Section 4 (Contato) */
+#map {
+  width: 100%;
+  height: 300px;
+ }
