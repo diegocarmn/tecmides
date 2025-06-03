@@ -1,4 +1,4 @@
-# tecmides
+# Projeto Tecmides
 
 ## :memo: Habilitar mapa no final da página
 
